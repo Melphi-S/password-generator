@@ -1,0 +1,64 @@
+.strengthMeter {
+  width: 100%;
+  padding: 20px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #18171F;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #817D92;
+  box-sizing: border-box;
+}
+
+.measurement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #E6E5EA;
+  margin-right: 15.5px;
+}
+
+.sectionsWrapper {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 8px;
+}
+
+.section {
+  width: 10px;
+  height: 28px;
+  border: 2px solid #E6E5EA;
+
+  &_type_tooWeak {
+    background: #F64A4A;
+    border: 2px solid transparent;
+  }
+
+  &_type_weak {
+    background: #FB7C58;
+    border: 2px solid transparent;
+  }
+
+  &_type_medium {
+    background: #F8CD65;
+    border: 2px solid transparent;
+  }
+
+  &_type_strong {
+    background: #A4FFAF;
+    border: 2px solid transparent;
+  }
+}

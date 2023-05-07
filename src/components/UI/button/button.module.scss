@@ -1,0 +1,28 @@
+.button {
+  width: 100%;
+  padding: 21px 0;
+  display: flex;
+  justify-content: center;
+  background: #A4FFAF;
+  border: none;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  cursor: pointer;
+
+  &:hover {
+    background: transparent;
+    border: 2px solid #A4FFAF;
+  }
+
+  &:hover * {
+    fill: #A4FFAF;
+    color: #A4FFAF;
+  }
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}

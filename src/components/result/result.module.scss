@@ -1,0 +1,49 @@
+.result {
+  padding: 19px 32px;
+  margin: 31px 0 24px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 540px;
+  width: 100%;
+  background-color: #24232C;
+  box-sizing: border-box;
+}
+
+.password {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #E6E5EA;
+
+  &_default {
+    color: #E6E5EA;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+  }
+}
+
+.button {
+  background: transparent;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.copyImg {
+  &:hover * {
+    fill: #FFFFFF;
+  }
+}
+
+.copiedSpan {
+  &::before {
+    position: absolute;
+    left: -75px;
+    top: 11px;
+    content: 'copied';
+    color: #A4FFAF;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,46 @@
+.options {
+  padding: 24px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  max-width: 540px;
+  width: 100%;
+  background-color: #24232C;
+  box-sizing: border-box;
+}
+
+.fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.charsNumber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+
+  &__label {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #E6E5EA;
+  }
+
+  &__number {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #A4FFAF;
+  }
+}
+
+.checkboxesWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
