@@ -1,3 +1,38 @@
-.range {
+.range  {
   width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 8px;
+}
+
+.range::-webkit-slider-thumb {
+  background: #E6E5EA;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  -webkit-appearance: none;
+
+  &:hover {
+    background: #18171F;
+    border: 2px solid #A4FFAF;
+  }
+}
+
+input[type=range]::-moz-range-thumb {
+  background: #E6E5EA;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  -webkit-appearance: none;
+  margin-top: -10px;
+
+  &:hover {
+    background: #18171F;
+    border: 2px solid #A4FFAF;
+  }
 }
