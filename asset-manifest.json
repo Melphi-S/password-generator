@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/password-generator/static/css/main.20194533.css",
-    "main.js": "/password-generator/static/js/main.6dc4fabb.js",
+    "main.css": "/password-generator/static/css/main.5e8d7524.css",
+    "main.js": "/password-generator/static/js/main.7a44f240.js",
     "static/media/JetBrainsMono-Italic-VariableFont_wght.ttf": "/password-generator/static/media/JetBrainsMono-Italic-VariableFont_wght.41ea7ce5a94285e86a0b.ttf",
     "static/media/JetBrainsMono-VariableFont_wght.ttf": "/password-generator/static/media/JetBrainsMono-VariableFont_wght.ebc33bd57e78956d75ad.ttf",
     "static/media/icon-copy.svg": "/password-generator/static/media/icon-copy.c00fcf20217a486689713679f8ec9e05.svg",
     "index.html": "/password-generator/index.html",
     "static/media/icon-arrow-right.svg": "/password-generator/static/media/icon-arrow-right.6f919c9ee4525a9948a9e391ae915648.svg",
     "static/media/icon-check.svg": "/password-generator/static/media/icon-check.c0e2bb9365c6d9e8bbe4.svg",
-    "main.20194533.css.map": "/password-generator/static/css/main.20194533.css.map",
-    "main.6dc4fabb.js.map": "/password-generator/static/js/main.6dc4fabb.js.map"
+    "main.5e8d7524.css.map": "/password-generator/static/css/main.5e8d7524.css.map",
+    "main.7a44f240.js.map": "/password-generator/static/js/main.7a44f240.js.map"
   },
   "entrypoints": [
-    "static/css/main.20194533.css",
-    "static/js/main.6dc4fabb.js"
+    "static/css/main.5e8d7524.css",
+    "static/js/main.7a44f240.js"
   ]
 }
