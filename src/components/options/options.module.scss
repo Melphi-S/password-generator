@@ -10,6 +10,10 @@
   width: 100%;
   background-color: #24232C;
   box-sizing: border-box;
+
+  @include mobile {
+    padding: 16px;
+  }
 }
 
 .fieldset {
