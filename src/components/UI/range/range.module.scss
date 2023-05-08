@@ -1,4 +1,4 @@
-.range  {
+.range {
   width: 100%;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -21,7 +21,7 @@
   }
 }
 
-input[type=range]::-moz-range-thumb {
+.range::-moz-range-thumb {
   background: #E6E5EA;
   border: 2px solid transparent;
   border-radius: 50%;

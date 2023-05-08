@@ -1,3 +1,5 @@
+@import '../../../scss/mixins';
+
 .label {
   display: flex;
   gap: 10px;
@@ -37,4 +39,9 @@
   font-size: 18px;
   line-height: 24px;
   color: #E6E5EA;
+
+  @include mobile {
+    font-size: 16px;
+    line-height: 21px;
+  }
 }

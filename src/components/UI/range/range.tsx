@@ -8,7 +8,7 @@ const Range: FC<InputHTMLAttributes<HTMLInputElement>> = ({...props}) => {
         const percentage = Math.round(props.value as number / 20 * 100);
         if (rangeRef.current) {
             rangeRef.current.style.background = `linear-gradient(to right, #A4FFAF ${percentage}%, #18171F ${percentage}%)`
-        };
+        }
     }, [props.value])
 
 

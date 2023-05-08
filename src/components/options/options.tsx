@@ -18,6 +18,8 @@ import StrengthMeter from "../strengthMeter/strengthMeter";
 const Options = () => {
     const {options, optionsDispatch, setResult, setCopied} = useContext(AppContext)
 
+    const isButtonDisabled = !Object.values(options).some(option => option === true);
+
     const generatePassword = (evt: React.MouseEvent<HTMLElement>) => {
         let ranges = [];
         for (let key of Object.keys(options)) {
@@ -64,7 +66,7 @@ const Options = () => {
                           onChange={() => optionsDispatch(toggleSymbols())}/>
             </fieldset>
             <StrengthMeter/>
-            <Button type='button' title='GENERATE' onClick={generatePassword}/>
+            <Button type='button' title='GENERATE' disabled={isButtonDisabled} onClick={generatePassword}/>
         </form>
     );
 };

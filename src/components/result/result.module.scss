@@ -1,3 +1,5 @@
+@import '../../scss/mixins';
+
 .result {
   padding: 19px 32px;
   margin: 31px 0 24px;
@@ -7,6 +9,10 @@
   width: 100%;
   background-color: #24232C;
   box-sizing: border-box;
+
+  @include mobile {
+    padding: 16px 17px;
+  }
 }
 
 .password {
@@ -21,6 +27,11 @@
     mix-blend-mode: normal;
     opacity: 0.25;
   }
+
+  @include mobile {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 .button {
@@ -29,6 +40,12 @@
   border: 0;
   cursor: pointer;
   position: relative;
+
+  @include mobile {
+    width: 17.5px;
+    height: 20px;
+    object-fit: cover;
+  }
 }
 
 .copyImg {
@@ -40,10 +57,17 @@
 .copiedSpan {
   &::before {
     position: absolute;
-    left: -75px;
+    left: -65px;
     top: 11px;
     content: 'copied';
     color: #A4FFAF;
     text-transform: uppercase;
+
+    @include mobile {
+      font-size: 12px;
+      line-height: 18px;
+      left: -20px;
+      top: 25px;
+    }
   }
 }
