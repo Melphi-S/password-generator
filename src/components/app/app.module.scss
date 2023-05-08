@@ -8,6 +8,10 @@
   align-items: center;
   padding: 133px 16px 0;
   box-sizing: border-box;
+
+  @include mobile {
+    padding: 64px 16px 0;
+  }
 }
 
 .heading {
